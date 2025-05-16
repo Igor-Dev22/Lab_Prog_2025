@@ -33,7 +33,7 @@ void main()
         printf("\n\nSelecione uma opcao: \n");
 
         printf("+-----------------------+");
-        printf("\n| 1 - Cadastrar cliente |");
+        printf("\n| 1 - Cadastrar clientexxx |");
         printf("\n| 2 - Cadastrar produto |");
         printf("\n| 3 - Efetuar uma venda |");
         printf("\n| 4 - Listar clientes   |");
