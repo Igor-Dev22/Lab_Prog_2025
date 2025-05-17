@@ -25,6 +25,9 @@ Este é um sistema simples, desenvolvido em linguagem C, para **cadastro e geren
 * Opção `Cadastrar Produto` no menu ele nos mostra dois campos , sendo `Nome do Produto` e `Valor Unitário`.
 * Utilizando um `Scanf` para receber e armazenar essa dados do Produto.
 
+### Efetuar venda
+#### Função ainda não realizada!
+
 ### Listar clientes
 * Opção `Listar Clientes` usado para listar os clientes cadastrados , utilizando o `Contador` para ordenar de forma crescente.
 ```c
@@ -38,6 +41,7 @@ Este é um sistema simples, desenvolvido em linguagem C, para **cadastro e geren
         i++;
    }
 ```
+### Excluir Cliente 
 ---
 
 ##  Estrutura do Código
