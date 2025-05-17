@@ -134,8 +134,8 @@ void excluir_cliente(){
             return 0;
 
         }
-                printf("\n---Cliente nao cadastrado!---");
    }
+    printf("\n---Cliente nao cadastrado!---");
 
 }
 
