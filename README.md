@@ -44,29 +44,6 @@ int total_produtos = 0;
 
 ---
 
-##  Como Compilar e Executar
-
-### Usando `gcc`:
-
-```bash
-gcc programa.c -o sistema
-./sistema
-```
-
----
-
-##  Pontos a Melhorar
-
-* Corrigir erro de digitação: "Exlcuir cliente" → "Excluir cliente"
-* Tratar entrada com `scanf("%s", ...)` para nomes compostos ou longos
-* Implementar corretamente a função `cadastrar_venda()`
-* Corrigir a listagem de clientes (`listar_clientes()`) que está imprimindo o struct diretamente (`clientes[i]` ao invés de `clientes[i].nome`)
-* Implementar a função `atualizar_clientes()`
-* Adicionar verificação de limite ao cadastrar clientes e produtos (para não exceder 10)
-* Adicionar uma opção de sair do programa (`case 0:`)
-
----
-
 ##  Exemplo de Uso
 
 ```plaintext
