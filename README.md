@@ -26,7 +26,7 @@ Este é um sistema simples, desenvolvido em linguagem C, para **cadastro e geren
 * Utilizando um `Scanf` para receber e armazenar essa dados do Produto.
 
 ### Listar clientes
-*Opção `Listar Clientes` usado para listar os clientes cadastrados , em ordem crescente.
+* Opção `Listar Clientes` usado para listar os clientes cadastrados , utilizando o `Contador` para ordenar de forma crescente.
 ```c
     int contador = 0;
       int i = 0 ;
