@@ -17,7 +17,8 @@ Este é um sistema simples, desenvolvido em linguagem C, para **cadastro e geren
 
 ##  Como Funciona
 
-Ao rodar o programa, um menu interativo será exibido no terminal, permitindo ao usuário escolher a operação desejada. O menu se repete até que o usuário digite `0` (valor ainda não programado como condição de saída).
+`Cadastrar cliente`
+
 
 ---
 
