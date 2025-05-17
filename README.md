@@ -47,29 +47,6 @@ Este é um sistema simples, desenvolvido em linguagem C, para **cadastro e geren
 * Após removido é subtraido `1` do `Contador`, onde o segundo cliente que foi cadastrado na lista e não foi removido acaba assumindo a possição na lista do cliente que foi removido. Caso o primeiro da lista não foi excluido ele permace na possição `1` da lista.
 ---
 
-##  Estrutura do Código
-
-O código utiliza dois structs:
-
-* `Cliente`: contém `nome` e `idade`
-* `Produto`: contém `nome` e `preco`
-
-Também há dois arrays globais com capacidade para armazenar até 10 clientes e 10 produtos:
-
-```c
-Cliente clientes[10];
-Produto produtos[10];
-```
-
-E duas variáveis para controlar o número total cadastrado:
-
-```c
-int total_clientes = 0;
-int total_produtos = 0;
-```
-
----
-
 ##  Exemplo de Uso
 
 ```plaintext
