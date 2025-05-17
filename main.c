@@ -33,7 +33,7 @@ void main()
         printf("\n\nSelecione uma opcao: \n");
 
         printf("+-----------------------+");
-        printf("\n| 1 - Cadastrar clientexxx |");
+        printf("\n| 1 - Cadastrar cliente |");
         printf("\n| 2 - Cadastrar produto |");
         printf("\n| 3 - Efetuar uma venda |");
         printf("\n| 4 - Listar clientes   |");
@@ -111,12 +111,25 @@ void listar_clientes(){ //Fazer a listagem , de toda lista de clientes cadastrad
 }
 
 void excluir_cliente(){
-    int i = 0 ;
-	while(i < total_clientes && strcmp(clientes[i].nome,"igor") != 0){
-        i++;
-     }
+   char nome[50];
+   int i, j;
 
-     strcpy(clientes[i].nome, "");
+   printf("\nDigite o nome do cliente que deseja EXCLUIR: ");
+   scanf("%s",&nome);
 
-     printf("\nCliente Exlcuido!");
+   for(i = 0 ; i < total_clientes; i++){
+
+        if(strcmp(clientes[i].nome, nome) == 0){
+
+            for(j = i; j < total_clientes; j++){
+                clientes[j] = clientes[j + 1];
+            }
+            total_clientes --;
+            printf("\n--Cliente %s exlcuido com sucesso!--", nome);
+            return 0;
+
+        }
+                printf("\n\nCliente nao cadastrado!");
+   }
+
 }
