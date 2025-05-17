@@ -17,7 +17,8 @@ Este é um sistema simples, desenvolvido em linguagem C, para **cadastro e geren
 
 ##  Como Funciona
 
-`Cadastrar cliente`
+### Cadastrar cliente
+* Ao selecionar o `Cadastrar Cliente` no menu ele nos mostra dois campos , sendo `Nome` e `Idade`. Armazenandos 
 
 
 ---
