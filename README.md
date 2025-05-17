@@ -18,11 +18,11 @@ Este é um sistema simples, desenvolvido em linguagem C, para **cadastro e geren
 ##  Como Funciona
 
 ### Cadastrar cliente
-* Ao selecionar o `Cadastrar Cliente` no menu ele nos mostra dois campos , sendo `Nome` e `Idade`.
+* Opção `Cadastrar Cliente` no menu ele nos mostra dois campos , sendo `Nome` e `Idade`.
 * Utilizando um `Scanf` para receber e armazenar essa dados do Cliente.
 
 ### Cadastrar Produto
-* Ao selecionar o `Cadastrar Produto` no menu ele nos mostra dois campos , sendo `Nome do Produto` e `Valor Unitário`.
+* Opção `Cadastrar Produto` no menu ele nos mostra dois campos , sendo `Nome do Produto` e `Valor Unitário`.
 * Utilizando um `Scanf` para receber e armazenar essa dados do Produto.
 
 ---
