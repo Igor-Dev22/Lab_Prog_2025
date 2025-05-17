@@ -43,8 +43,8 @@ Este é um sistema simples, desenvolvido em linguagem C, para **cadastro e geren
 ```
 ### Excluir Cliente 
 * Opção `Excluir Cliente` usado para remover algum cliente que já esteja cadastrado.
-* solicitando o `nome` do cliente que quer ser removido da lista.
-* Após removido é subtraido `1` do `Contador`, assumindo a possição na lista do cliente que foi removido.
+* Solicitando o `nome` do cliente que quer ser removido da lista.
+* Após removido é subtraido `1` do `Contador`, onde o segundo cliente que foi cadastrado na lista e não foi removido acaba assumindo a possição na lista do cliente que foi removido. Caso o primeiro da lista não foi excluido ele permace na possição `1` da lista.
 ---
 
 ##  Estrutura do Código
