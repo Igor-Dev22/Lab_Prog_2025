@@ -18,6 +18,8 @@ int cadastrar_produto();
 int cadastrar_venda();
 void listar_clientes();
 void excluir_cliente();
+void atualizar_clientes();
+
 
 Cliente clientes[10];
 Produto produtos[10];
@@ -37,7 +39,8 @@ void main()
         printf("\n| 2 - Cadastrar produto |");
         printf("\n| 3 - Efetuar uma venda |");
         printf("\n| 4 - Listar clientes   |");
-        printf("\n| 5 - Exlcuir cliente   |\n");
+        printf("\n| 5 - Exlcuir cliente   |");
+        printf("\n| 6 - Atualizar cliente |\n");
         printf("+-----------------------+");
         printf("\n:");
         scanf("%d",&menu);
@@ -58,6 +61,8 @@ void main()
                 case 5:
                     excluir_cliente();
                     break;
+                case 6:
+                    atualizar_clientes();
             default:
                 printf("\nOpcao de menu invalida!");
 
@@ -125,11 +130,17 @@ void excluir_cliente(){
                 clientes[j] = clientes[j + 1];
             }
             total_clientes --;
-            printf("\n--Cliente %s exlcuido com sucesso!--", nome);
+            printf("\n\n--Cliente %s exlcuido com sucesso!--", nome);
             return 0;
 
         }
-                printf("\n\nCliente nao cadastrado!");
+                printf("\n---Cliente nao cadastrado!---");
    }
+
+}
+
+void atualizar_clientes(){
+
+    printf("");
 
 }
