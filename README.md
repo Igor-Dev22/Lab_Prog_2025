@@ -1,12 +1,10 @@
-Claro! Aqui está um exemplo de **README** em português, explicando o propósito do código, funcionalidades disponíveis, e como utilizar o programa:
-
 ---
 
-# 🧾 Sistema de Cadastro de Clientes e Produtos em C
+#  Sistema de Cadastro de Clientes e Produtos em C
 
 Este é um sistema simples, desenvolvido em linguagem C, para **cadastro e gerenciamento de clientes e produtos**, com funcionalidades básicas como listar, excluir e atualizar informações de clientes, além de cadastrar vendas (em desenvolvimento).
 
-## 📋 Funcionalidades Implementadas
+##  Funcionalidades Implementadas
 
 1. **Cadastrar Cliente**
 2. **Cadastrar Produto**
@@ -17,13 +15,13 @@ Este é um sistema simples, desenvolvido em linguagem C, para **cadastro e geren
 
 ---
 
-## 💡 Como Funciona
+##  Como Funciona
 
 Ao rodar o programa, um menu interativo será exibido no terminal, permitindo ao usuário escolher a operação desejada. O menu se repete até que o usuário digite `0` (valor ainda não programado como condição de saída).
 
 ---
 
-## 🧑‍💻 Estrutura do Código
+##  Estrutura do Código
 
 O código utiliza dois structs:
 
@@ -46,7 +44,7 @@ int total_produtos = 0;
 
 ---
 
-## ⚙️ Como Compilar e Executar
+##  Como Compilar e Executar
 
 ### Usando `gcc`:
 
@@ -57,7 +55,7 @@ gcc programa.c -o sistema
 
 ---
 
-## 🚧 Pontos a Melhorar
+##  Pontos a Melhorar
 
 * Corrigir erro de digitação: "Exlcuir cliente" → "Excluir cliente"
 * Tratar entrada com `scanf("%s", ...)` para nomes compostos ou longos
@@ -69,7 +67,7 @@ gcc programa.c -o sistema
 
 ---
 
-## 📌 Exemplo de Uso
+##  Exemplo de Uso
 
 ```plaintext
 Selecione uma opcao:
@@ -93,14 +91,5 @@ Idade: 30
 
 ---
 
-## 🧠 Autor
-
-Este programa é um exemplo educacional e pode ser expandido com funcionalidades como:
-
-* Persistência em arquivos
-* Interface gráfica
-* Suporte a mais clientes e produtos com alocação dinâmica
-
+##  Autor
 ---
-
-Se quiser, posso gerar também uma versão em inglês ou convertê-lo em um projeto com `Makefile` e documentação separada.
