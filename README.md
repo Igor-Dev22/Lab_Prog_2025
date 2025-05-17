@@ -26,7 +26,7 @@ Este é um sistema simples, desenvolvido em linguagem C, para **cadastro e geren
 * Utilizando um `Scanf` para receber e armazenar essa dados do Produto.
 
 ### Efetuar venda
-#### Função ainda não realizada!
+* Função não implementada!
 
 ### Listar clientes
 * Opção `Listar Clientes` usado para listar os clientes cadastrados , utilizando o `Contador` para ordenar de forma crescente.
@@ -45,6 +45,9 @@ Este é um sistema simples, desenvolvido em linguagem C, para **cadastro e geren
 * Opção `Excluir Cliente` usado para remover algum cliente que já esteja cadastrado.
 * Solicitando o `nome` do cliente que quer ser removido da lista.
 * Após removido é subtraido `1` do `Contador`, onde o segundo cliente que foi cadastrado na lista e não foi removido acaba assumindo a possição na lista do cliente que foi removido. Caso o primeiro da lista não foi excluido ele permace na possição `1` da lista.
+
+### Atualizar Cliente
+* Função não implementada.
 ---
 
 ##  Exemplo de Uso
@@ -62,11 +65,11 @@ Selecione uma opcao:
 : 1
 
 Cadastrando cliente.....
-Digite o nome do cliente: Maria
-Digite a idade do cliente: 30
+Digite o nome do cliente: Igor
+Digite a idade do cliente: 18
 Cadastro concluido!
-Nome: Maria
-Idade: 30
+Nome: Igor
+Idade: 18
 ```
 
 ---
