@@ -4,13 +4,13 @@ Este projeto consiste no desenvolvimento de um sistema de vendas simples, com fu
 
 ## Objetivo
 
-Simular um sistema básico de ponto de vendas (PDV), permitindo o cadastro, atualização, listagem e exclusão de clientes e produtos, bem como o registro de vendas associadas.
+Simular um sistema básico de ponto de vendas , permitindo o cadastro, atualização, listagem e exclusão de clientes e produtos, bem como o registro de vendas associadas.
 
 ## Funcionalidades
 
 ### Cadastro
 
-- **Cadastrar Cliente:** Inserção de dados de um novo cliente (nome, CPF, e-mail, telefone).
+- **Cadastrar Cliente:** Inserção de dados de um novo cliente (nome, CPF, e-mail).
 - **Cadastrar Produto:** Registro de novo produto com código, nome, preço e quantidade.
 - **Cadastrar Venda:** Associação de um cliente com um ou mais produtos, com cálculo de valor total.
 
@@ -26,7 +26,7 @@ Simular um sistema básico de ponto de vendas (PDV), permitindo o cadastro, atua
 
 ### Exclusão
 
-- **Excluir Cliente:** Remove um cliente do sistema, desde que não vinculado a vendas (dependendo da regra de negócio).
+- **Excluir Cliente:** Remove um cliente do sistema, desde que não vinculado a vendas.
 - **Excluir Produto:** Remove um produto do sistema, caso permitido.
 
 ### Sistema
