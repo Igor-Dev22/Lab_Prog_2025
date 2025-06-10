@@ -1,78 +1,34 @@
----
+# Sistema de Vendas
 
-#  Sistema de Cadastro de Clientes e Produtos em C
+Este projeto consiste no desenvolvimento de um sistema de vendas simples, com funcionalidades essenciais para o gerenciamento de clientes, produtos e vendas. O sistema foi desenvolvido como parte de um trabalho acadêmico, com foco na aplicação de conceitos de programação estruturada, manipulação de dados e boas práticas de desenvolvimento de software.
 
-Este é um sistema simples, desenvolvido em linguagem C, para **cadastro e gerenciamento de clientes e produtos**, com funcionalidades básicas como listar, excluir e atualizar informações de clientes, além de cadastrar vendas (em desenvolvimento).
+## Objetivo
 
-##  Funcionalidades Implementadas
+Simular um sistema básico de ponto de vendas (PDV), permitindo o cadastro, atualização, listagem e exclusão de clientes e produtos, bem como o registro de vendas associadas.
 
-1. **Cadastrar Cliente**
-2. **Cadastrar Produto**
-3. **Efetuar Venda** (ainda não implementado)
-4. **Listar Clientes**
-5. **Excluir Cliente**
-6. **Atualizar Cliente** (ainda não implementado)
+## Funcionalidades
 
----
+### Cadastro
 
-##  Como Funciona
+- **Cadastrar Cliente:** Inserção de dados de um novo cliente (nome, CPF, e-mail, telefone).
+- **Cadastrar Produto:** Registro de novo produto com código, nome, preço e quantidade.
+- **Cadastrar Venda:** Associação de um cliente com um ou mais produtos, com cálculo de valor total.
 
-### Cadastrar cliente
-* Opção `Cadastrar Cliente` no menu ele nos mostra dois campos , sendo `Nome` e `Idade`.
-* Utilizando um `Scanf` para receber e armazenar essa dados do Cliente.
+### Listagem
 
-### Cadastrar Produto
-* Opção `Cadastrar Produto` no menu ele nos mostra dois campos , sendo `Nome do Produto` e `Valor Unitário`.
-* Utilizando um `Scanf` para receber e armazenar essa dados do Produto.
+- **Listar Clientes:** Mostra todos os clientes cadastrados.
+- **Listar Produtos:** Exibe todos os produtos cadastrados com detalhes.
 
-### Efetuar venda
-* Função não implementada!
+### Atualização
 
-### Listar clientes
-* Opção `Listar Clientes` usado para listar os clientes cadastrados , utilizando o `Contador` para ordenar de forma crescente.
-```c
-    int contador = 0;
-      int i = 0 ;
-      printf("\nListagem de clientes cadastrados:\n\n");
+- **Atualizar Cliente:** Permite modificar os dados de um cliente existente.
+- **Atualizar Produto:** Permite modificar as informações de um produto.
 
-    while(i < total_clientes){
-        printf("%d - %s\n",contador, clientes[i]);
-        contador++;
-        i++;
-   }
-```
-### Excluir Cliente 
-* Opção `Excluir Cliente` usado para remover algum cliente que já esteja cadastrado.
-* Solicitando o `nome` do cliente que quer ser removido da lista.
-* Após removido é subtraido `1` do `Contador`, onde o segundo cliente que foi cadastrado na lista e não foi removido acaba assumindo a possição na lista do cliente que foi removido. Caso o primeiro da lista não foi excluido ele permace na possição `1` da lista.
+### Exclusão
 
-### Atualizar Cliente
-* Função não implementada.
----
+- **Excluir Cliente:** Remove um cliente do sistema, desde que não vinculado a vendas (dependendo da regra de negócio).
+- **Excluir Produto:** Remove um produto do sistema, caso permitido.
 
-##  Exemplo de Uso
+### Sistema
 
-```plaintext
-Selecione uma opcao:
-+-----------------------+
-| 1 - Cadastrar cliente |
-| 2 - Cadastrar produto |
-| 3 - Efetuar uma venda |
-| 4 - Listar clientes   |
-| 5 - Excluir cliente   |
-| 6 - Atualizar cliente |
-+-----------------------+
-: 1
-
-Cadastrando cliente.....
-Digite o nome do cliente: Igor
-Digite a idade do cliente: 18
-Cadastro concluido!
-Nome: Igor
-Idade: 18
-```
-
----
-
-##  Autor
----
+- **Sair:** Encerra o programa com segurança.
