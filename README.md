@@ -1,34 +1,50 @@
-# Sistema de Vendas
+# 🛒 Sistema de Vendas
 
-Este projeto consiste no desenvolvimento de um sistema de vendas simples, com funcionalidades essenciais para o gerenciamento de clientes, produtos e vendas. O sistema foi desenvolvido como parte de um trabalho acadêmico, com foco na aplicação de conceitos de programação estruturada, manipulação de dados e boas práticas de desenvolvimento de software.
+Este projeto consiste no desenvolvimento de um sistema de vendas simples em **linguagem C**, com funcionalidades essenciais para o gerenciamento de **clientes**, **produtos** e **vendas**. Foi desenvolvido como parte de um trabalho acadêmico, com foco em **programação estruturada**, **manipulação de dados** e **boas práticas de codificação**.
 
-## Objetivo
+---
 
-Simular um sistema básico de ponto de vendas , permitindo o cadastro, atualização, listagem e exclusão de clientes e produtos, bem como o registro de vendas associadas.
+## 🎯 Objetivo
 
-## Funcionalidades
+Simular um sistema básico de ponto de vendas, permitindo:
 
-### Cadastro
+- Cadastro, atualização, listagem e exclusão de **clientes** e **produtos**.
+- Registro de **vendas** associadas a clientes e produtos.
 
-- **Cadastrar Cliente:** Inserção de dados de um novo cliente (nome, CPF, e-mail).
-- **Cadastrar Produto:** Registro de novo produto com código, nome, preço e quantidade.
-- **Cadastrar Venda:** Associação de um cliente com um ou mais produtos, com cálculo de valor total.
+---
 
-### Listagem
+## ⚙️ Funcionalidades
 
-- **Listar Clientes:** Mostra todos os clientes cadastrados.
-- **Listar Produtos:** Exibe todos os produtos cadastrados com detalhes.
+### 📋 Cadastro
+- **Cadastrar Cliente**: Inserção de dados de um novo cliente (nome, idade, CPF).
+- **Cadastrar Produto**: Registro de um novo produto com nome, código e preço.
+- **Cadastrar Venda**: Associa um cliente a um ou mais produtos, com cálculo do valor total e seleção da forma de pagamento (dinheiro, pix, cartão, crediário).
 
-### Atualização
+### 📄 Listagem
+- **Listar Clientes**: Exibe todos os clientes cadastrados.
+- **Listar Produtos**: Exibe todos os produtos cadastrados.
 
-- **Atualizar Cliente:** Permite modificar os dados de um cliente existente.
-- **Atualizar Produto:** Permite modificar as informações de um produto.
+### ✏️ Atualização
+- **Editar Cliente**: Permite modificar nome, idade ou CPF.
+- **Editar Produto**: Permite modificar nome, preço ou código.
 
-### Exclusão
+### ❌ Exclusão
+- **Excluir Cliente**: Remove um cliente, desde que não vinculado a uma venda.
+- **Excluir Produto**: Remove um produto do sistema, se possível.
 
-- **Excluir Cliente:** Remove um cliente do sistema, desde que não vinculado a vendas.
-- **Excluir Produto:** Remove um produto do sistema, caso permitido.
+---
 
-### Sistema
+## 🧱 Estrutura de Dados
 
-- **Sair:** Encerra o programa com segurança.
+```c
+typedef struct {
+   char nome[50];
+   char cpf[12];
+   int idade;
+} Cliente;
+
+typedef struct {
+   char nome[50];
+   float preco;
+   int codigo;
+} Produto;
