@@ -33,3 +33,7 @@ Simular um sistema básico de ponto de vendas, permitindo:
 - **Excluir Produto**: Remove um produto do sistema, se possível.
 
 ---
+## Autor
+
+*Igor Burkhardt*  
+📧 E-mail: [igor22@unochapeco.edu.br](mailto:igor22@unochapeco.edu.br)
