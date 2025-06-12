@@ -33,18 +33,3 @@ Simular um sistema básico de ponto de vendas, permitindo:
 - **Excluir Produto**: Remove um produto do sistema, se possível.
 
 ---
-
-## Estrutura de Dados
-
-```c
-typedef struct {
-   char nome[50];
-   char cpf[12];
-   int idade;
-} Cliente;
-
-typedef struct {
-   char nome[50];
-   float preco;
-   int codigo;
-} Produto;
